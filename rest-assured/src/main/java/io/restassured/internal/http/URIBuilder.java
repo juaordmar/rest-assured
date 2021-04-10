@@ -391,11 +391,24 @@ public class URIBuilder implements Cloneable {
      *         URI implementation is equal to this one's.
      * @see URI#equals(Object)
      */
+    
+     @Override
+     public int hashCode() {
+     final int prime = 31;
+     int result = 1;
+     result = prime * result
+     + ((base == null) ? 0 : base.hashCode());
+     return result;
+    }
+    
     @Override
     public boolean equals(Object obj) {
         if (!(obj instanceof URIBuilder)) return false;
         return this.base.equals(((URIBuilder) obj).toURI());
     }
+    
+    
+    
 
     /**
      * Returns a String that is suitable for use as an <code>application/x-www-form-urlencoded</code>
