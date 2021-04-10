@@ -87,6 +87,8 @@ REST Assured supports any HTTP method but has explicit support for *POST*, *GET*
 * [JsonPath Javadoc](http://static.javadoc.io/io.rest-assured/json-path/4.3.3/io/restassured/path/json/JsonPath.html)
 * [Release Notes](https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes)
 * [FAQ](https://github.com/rest-assured/rest-assured/wiki/FAQ)
+* [Useful links (Spanish)](https://www.sdos.es/blog/descubre-como-automatizar-service-tests-con-rest-assured)
+* [Useful links (Spanish)](https://www.adictosaltrabajo.com/2017/05/11/prueba-tus-api-rest-con-rest-assured/)
 
 ## Support and discussion
 Join the mailing list at our [Google group](http://groups.google.com/group/rest-assured). 
